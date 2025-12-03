@@ -340,6 +340,29 @@ section:nth-child(even) {
   color: var(--color-dark-text);
 }
 
+.hero-benefits {
+  list-style: none;
+  margin: var(--spacing-lg) 0;
+  padding: 0;
+}
+
+.hero-benefits li {
+  font-size: var(--font-size-body);
+  color: var(--color-dark-text);
+  margin-bottom: var(--spacing-sm);
+  padding-left: var(--spacing-lg);
+  position: relative;
+}
+
+.hero-benefits li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--color-success);
+  font-weight: 700;
+  font-size: 20px;
+}
+
 .hero-trust-signal {
   font-size: var(--font-size-small);
   color: var(--color-gray-medium);
@@ -370,6 +393,14 @@ section:nth-child(even) {
 /* 9. How It Works Section */
 #how-it-works {
   background-color: var(--color-off-white);
+}
+
+.how-subtitle {
+  font-size: var(--font-size-body);
+  color: var(--color-gray-medium);
+  text-align: center;
+  margin-top: var(--spacing-sm);
+  margin-bottom: 0;
 }
 
 .steps-grid {
