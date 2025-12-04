@@ -9,7 +9,7 @@ const translations = {
 
     // USP Banner
     'usp.item1': 'Setup in 1 day',
-    'usp.item2': 'No contracts',
+    'usp.item2': 'No subscription',
     'usp.item3': '€49 launch pricing',
 
     // Hero Section
@@ -55,7 +55,7 @@ const translations = {
     'features.item4.text': 'See how each day\'s forecast differs from your typical day of the week, so you instantly know whether to expect a quieter, normal or busier-than-average service.',
     'features.item5.title': 'Easy CSV export',
     'features.item5.text': 'Download your forecasts as a CSV in seconds and easily share them with your kitchen team, bar staff, or suppliers for coordinated planning.',
-    'features.item6.title': 'No contracts, no lock-in',
+    'features.item6.title': 'No subscription, no lock-in',
     'features.item6.text': 'Pay once for 30 days of access. If it does not clearly help after a month, walk away — no subscription, no commitment, no hassle.',
     'features.cta': 'Start forecasting for €49',
 
@@ -105,7 +105,7 @@ const translations = {
     'faq.q7.question': 'How accurate are the forecasts?',
     'faq.q7.answer': 'Forecasts are never perfect, but they are designed to be accurate enough to meaningfully improve your planning. Daily forecasts are typically within 15–20% of actual sales, 80% of the time, especially when there is at least 12 months of sales history to learn from. Accuracy is highest for items and days where you have more history; with shorter histories of around 90 days, you can expect more variation.<br><br>In practice, restaurants use the forecast to reduce waste, avoid clear over- or understaffing and spot days that are likely to be quieter or busier than usual, rather than to hit an exact number every single time.',
     'faq.q8.question': 'Can I cancel anytime?',
-    'faq.q8.answer': 'You do not need to cancel anything. You pay once for 30 days of access, and it stops automatically at the end of that period. If you want to continue, you simply choose to purchase another month. There is no subscription and no ongoing contract.',
+    'faq.q8.answer': 'You do not need to cancel anything. You pay once for 30 days of access, and it stops automatically at the end of that period. If you want to continue, you simply choose to purchase another month and send us your updated sales data. This way we make sure that your custom-made forecast is aware of the latest sales trends and items from your restaurant.',
     'faq.q9.question': 'Do you integrate with my POS system?',
     'faq.q9.answer': 'At the moment, we do not connect directly to POS systems. You export your sales data from your POS and upload it to Deitalite. Most systems make this export possible in just a few clicks. We are working towards direct integrations with major POS providers in the future, and early users will be the first to benefit from these.',
     'faq.q10.question': 'Is my data secure?',
@@ -142,7 +142,7 @@ const translations = {
 
     // USP Banner
     'usp.item1': 'Setup in 1 day', // TODO: Translate
-    'usp.item2': 'No contracts', // TODO: Translate
+    'usp.item2': 'No subscription', // TODO: Translate
     'usp.item3': '€49 launch pricing', // TODO: Translate
 
     // Hero Section
@@ -188,7 +188,7 @@ const translations = {
     'features.item4.text': 'See how each day\'s forecast differs from your typical day of the week, so you instantly know whether to expect a quieter, normal or busier-than-average service.', // TODO: Translate
     'features.item5.title': 'Easy CSV export', // TODO: Translate
     'features.item5.text': 'Download your forecasts as a CSV in seconds and easily share them with your kitchen team, bar staff, or suppliers for coordinated planning.', // TODO: Translate
-    'features.item6.title': 'No contracts, no lock-in', // TODO: Translate
+    'features.item6.title': 'No subscription, no lock-in', // TODO: Translate
     'features.item6.text': 'Pay once for 30 days of access. If it does not clearly help after a month, walk away — no subscription, no commitment, no hassle.', // TODO: Translate
     'features.cta': 'Start forecasting for €49', // TODO: Translate
 
@@ -238,7 +238,7 @@ const translations = {
     'faq.q7.question': 'How accurate are the forecasts?', // TODO: Translate
     'faq.q7.answer': 'Forecasts are never perfect, but they are designed to be accurate enough to meaningfully improve your planning. Daily forecasts are typically within 15–20% of actual sales, 80% of the time, especially when there is at least 12 months of sales history to learn from. Accuracy is highest for items and days where you have more history; with shorter histories of around 90 days, you can expect more variation.<br><br>In practice, restaurants use the forecast to reduce waste, avoid clear over- or understaffing and spot days that are likely to be quieter or busier than usual, rather than to hit an exact number every single time.', // TODO: Translate
     'faq.q8.question': 'Can I cancel anytime?', // TODO: Translate
-    'faq.q8.answer': 'You do not need to cancel anything. You pay once for 30 days of access, and it stops automatically at the end of that period. If you want to continue, you simply choose to purchase another month. There is no subscription and no ongoing contract.', // TODO: Translate
+    'faq.q8.answer': 'You do not need to cancel anything. You pay once for 30 days of access, and it stops automatically at the end of that period. If you want to continue, you simply choose to purchase another month and send us your updated sales data. This way we make sure that your custom-made forecast is aware of the latest sales trends and items from your restaurant.', // TODO: Translate
     'faq.q9.question': 'Do you integrate with my POS system?', // TODO: Translate
     'faq.q9.answer': 'At the moment, we do not connect directly to POS systems. You export your sales data from your POS and upload it to Deitalite. Most systems make this export possible in just a few clicks. We are working towards direct integrations with major POS providers in the future, and early users will be the first to benefit from these.', // TODO: Translate
     'faq.q10.question': 'Is my data secure?', // TODO: Translate
@@ -273,7 +273,7 @@ const translations = {
 
     // USP Banner
     'usp.item1': 'Setup in 1 day', // TODO: Translate
-    'usp.item2': 'No contracts', // TODO: Translate
+    'usp.item2': 'No subscription', // TODO: Translate
     'usp.item3': '€49 launch pricing', // TODO: Translate
 
     // Hero Section
@@ -319,7 +319,7 @@ const translations = {
     'features.item4.text': 'See how each day\'s forecast differs from your typical day of the week, so you instantly know whether to expect a quieter, normal or busier-than-average service.', // TODO: Translate
     'features.item5.title': 'Easy CSV export', // TODO: Translate
     'features.item5.text': 'Download your forecasts as a CSV in seconds and easily share them with your kitchen team, bar staff, or suppliers for coordinated planning.', // TODO: Translate
-    'features.item6.title': 'No contracts, no lock-in', // TODO: Translate
+    'features.item6.title': 'No subscription, no lock-in', // TODO: Translate
     'features.item6.text': 'Pay once for 30 days of access. If it does not clearly help after a month, walk away — no subscription, no commitment, no hassle.', // TODO: Translate
     'features.cta': 'Start forecasting for €49', // TODO: Translate
 
@@ -369,7 +369,7 @@ const translations = {
     'faq.q7.question': 'How accurate are the forecasts?', // TODO: Translate
     'faq.q7.answer': 'Forecasts are never perfect, but they are designed to be accurate enough to meaningfully improve your planning. Daily forecasts are typically within 15–20% of actual sales, 80% of the time, especially when there is at least 12 months of sales history to learn from. Accuracy is highest for items and days where you have more history; with shorter histories of around 90 days, you can expect more variation.<br><br>In practice, restaurants use the forecast to reduce waste, avoid clear over- or understaffing and spot days that are likely to be quieter or busier than usual, rather than to hit an exact number every single time.', // TODO: Translate
     'faq.q8.question': 'Can I cancel anytime?', // TODO: Translate
-    'faq.q8.answer': 'You do not need to cancel anything. You pay once for 30 days of access, and it stops automatically at the end of that period. If you want to continue, you simply choose to purchase another month. There is no subscription and no ongoing contract.', // TODO: Translate
+    'faq.q8.answer': 'You do not need to cancel anything. You pay once for 30 days of access, and it stops automatically at the end of that period. If you want to continue, you simply choose to purchase another month and send us your updated sales data. This way we make sure that your custom-made forecast is aware of the latest sales trends and items from your restaurant.', // TODO: Translate
     'faq.q9.question': 'Do you integrate with my POS system?', // TODO: Translate
     'faq.q9.answer': 'At the moment, we do not connect directly to POS systems. You export your sales data from your POS and upload it to Deitalite. Most systems make this export possible in just a few clicks. We are working towards direct integrations with major POS providers in the future, and early users will be the first to benefit from these.', // TODO: Translate
     'faq.q10.question': 'Is my data secure?', // TODO: Translate
