@@ -166,7 +166,25 @@ if ('IntersectionObserver' in window) {
   });
 }
 
-// 8. Console welcome message (optional branding)
+// 8. FAQ Accordion Toggle
+document.querySelectorAll('.faq-question').forEach(button => {
+  button.addEventListener('click', () => {
+    const faqItem = button.parentElement;
+    const isActive = faqItem.classList.contains('active');
+
+    // Close all other FAQ items (optional: remove these 3 lines for multi-open behavior)
+    document.querySelectorAll('.faq-item').forEach(item => {
+      item.classList.remove('active');
+    });
+
+    // Toggle current item
+    if (!isActive) {
+      faqItem.classList.add('active');
+    }
+  });
+});
+
+// 9. Console welcome message (optional branding)
 console.log('%cDeitalite', 'font-size: 24px; font-weight: bold; color: #3e573c;');
 console.log('%cWeather-smart restaurant forecasting', 'font-size: 14px; color: #7f8c8d;');
 console.log('Interested in our technology? Check out our GitHub: https://github.com/yourusername/deitalite');

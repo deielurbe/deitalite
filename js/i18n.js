@@ -94,7 +94,8 @@ const i18n = {
         if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
           element.placeholder = translation;
         } else {
-          element.textContent = translation;
+          // Use innerHTML to preserve HTML tags in translations (e.g., <em>, <br>)
+          element.innerHTML = translation;
         }
       } else {
         console.warn(`Translation missing for key: ${key} in language: ${lang}`);
